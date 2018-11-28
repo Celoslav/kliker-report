@@ -1,0 +1,14 @@
+.add-new-course-btn {
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #31a2f5;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+.add-new-course-wrapper {
+  margin-top: 80px;
+}

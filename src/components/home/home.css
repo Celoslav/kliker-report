@@ -1,0 +1,27 @@
+/* ============== MAIN =============== */
+.main {
+  display: flex;
+  flex: 1 1 auto;
+  padding: 40px;
+  flex-direction: column;
+}
+.row {
+  margin-bottom: 40px;
+  display: flex;
+}
+.row-data {
+  margin-bottom: 20px;
+  display: flex;
+}
+.table-header {
+  flex: 0 0 200px;
+  color: #31a2f5;
+  font-weight: 800;
+  /* margin-right: 40px; */
+}
+.table-data {
+  flex: 0 0 200px;
+  color: #31a2f5;
+  font-weight: 500;
+  /* margin-right: 40px; */
+}

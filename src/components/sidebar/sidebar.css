@@ -1,0 +1,33 @@
+/* ============== SIDEBAR =============== */
+.sidebar {
+  background-color: #31a2f5;
+  display: flex;
+  flex: 0 0 240px;
+  padding: 40px;
+  padding-top: 30px;
+  flex-direction: column;
+}
+.brand {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.brand-header {
+  margin: 0;
+}
+.links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.links li {
+  margin-top: 20px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}

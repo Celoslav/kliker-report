@@ -1,10 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+button {
+  text-decoration: none;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
 }
 
 .App-header {
@@ -20,6 +32,11 @@
 
 .App-link {
   color: #61dafb;
+}
+.btn-blue-plus {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
 }
 
 @keyframes App-logo-spin {
